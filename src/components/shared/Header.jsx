@@ -1,10 +1,8 @@
-import { Button, Layout, Menu } from "antd";
-
 import { useState } from "react";
 import { navItems } from "../../constants";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.svg";
-console.log(logo);
+import { Button, Layout, Menu } from "antd";
 
 const { Header } = Layout;
 
@@ -51,6 +49,7 @@ const HeaderPage = () => {
               </Menu.Item>
             ))}
           </Menu>
+          <Button type="primary">Book Now</Button>
         </div>
       </Header>
     </Layout>
