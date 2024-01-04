@@ -25,7 +25,12 @@ const HeaderPage = () => {
             alignItems: "center",
           }}
         >
-          <img width={100} src={logo} alt="logo" />
+          <img
+            style={{ cursor: "pointer" }}
+            width={100}
+            src={logo}
+            alt="logo"
+          />
 
           <Menu
             theme="light"

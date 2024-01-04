@@ -11,3 +11,8 @@
 .min-height {
   min-height: 90vh;
 }
+
+.footer-li {
+  list-style: none;
+  margin-top: 4px;
+}
