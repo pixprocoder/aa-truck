@@ -1,4 +1,5 @@
 ## Tech
 
 - React
-- React bootstrap
+- antd
+- React Router Dom
