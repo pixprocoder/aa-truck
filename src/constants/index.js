@@ -1,8 +1,8 @@
 export const navItems = [
   { href: "/", key: "home" },
-  { href: "/", key: "About" },
-  { href: "/", key: "Contact" },
-  { href: "/", key: "Others" },
+  { href: "/about", key: "About" },
+  { href: "/contact", key: "Contact" },
+  { href: "/blog", key: "Blog" },
 ];
 
 export const programs = [
