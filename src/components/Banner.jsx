@@ -2,11 +2,8 @@ import { Carousel } from "antd";
 
 const contentStyle = {
   margin: 0,
-  height: "160px",
-  color: "#fff",
-  lineHeight: "160px",
+  height: "500px",
   textAlign: "center",
-  background: "#364d79",
 };
 
 const Banner = () => {
@@ -15,18 +12,57 @@ const Banner = () => {
   };
 
   return (
-    <Carousel afterChange={onChange}>
+    <Carousel
+      style={{
+        maxWidth: "1400px",
+        margin: "0 auto",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+      afterChange={onChange}
+    >
       <div>
-        <h3 style={contentStyle}>1</h3>
+        <div style={contentStyle}>
+          <img
+            style={{
+              width: "100%",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "centre center",
+              backgroundSize: "cover",
+            }}
+            src="https://images.pexels.com/photos/188679/pexels-photo-188679.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt=""
+          />
+        </div>
       </div>
       <div>
-        <h3 style={contentStyle}>2</h3>
+        <div style={contentStyle}>
+          <img
+            style={{
+              width: "100%",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "centre center",
+              backgroundSize: "cover",
+            }}
+            src="https://images.pexels.com/photos/188679/pexels-photo-188679.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt=""
+          />
+        </div>
       </div>
       <div>
-        <h3 style={contentStyle}>3</h3>
-      </div>
-      <div>
-        <h3 style={contentStyle}>4</h3>
+        <div style={contentStyle}>
+          <img
+            style={{
+              width: "100%",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "centre center",
+              backgroundSize: "cover",
+            }}
+            src="https://images.pexels.com/photos/188679/pexels-photo-188679.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt=""
+          />
+        </div>
       </div>
     </Carousel>
   );
