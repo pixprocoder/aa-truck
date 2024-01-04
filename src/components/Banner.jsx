@@ -13,6 +13,7 @@ const Banner = () => {
 
   return (
     <Carousel
+      autoplay
       style={{
         maxWidth: "1400px",
         margin: "0 auto",
